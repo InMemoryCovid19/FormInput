@@ -11,15 +11,15 @@ $('#gform').on('submit', function(e) {
   });
 </script>
 
-<form enctype="multipart/form-data" method="post" action="https://localhost:3000/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  smee port
+<form enctype="multipart/form-data" method="post" action="https://smee.io/1y9D9Ztcb4A5BNMr/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  Action smee
   Name of deceased:<br>
-  <input type="text" name="entry.1585793066" id="entry.1585793066"><br>
+  <input type="text" name="Name" id="Name"><br>
   Birth Date<br>
-  <input type="text" name="entry.1084044168" id="entry.1084044168">
+  <input type="date" name="BirthDate" id="BirthDate">
   Death Date<br>
-  <input type="date" name="date" id="dateID">
-  File <input type="file" name="entryFile" id="entry.file">
+  <input type="date" name="deathDate" id="deathDate">
+  File <input type="file" name="headerImage" id="headerImage" accept=".jpg, .jpeg, .png">
   <input type="submit" value="Submit">
 </form>
 
